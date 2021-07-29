@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="jquery-3.6.0.min.js"></script>
+    <title>LAST PAGE</title>
+    <style>
+        *{margin: 0; padding: 0;}
+        #div1
+        {
+            height: 333px;
+            background-color: black;
+            text-align: center;
+        }
+        #div2
+        {
+            height: 330px;
+            background-color: gold;
+            text-align: center;
+        }
+        #playagain
+        {
+            width: 1000px;
+            height: 280px;
+            margin: 25px;
+            font-size: 130px;
+            font-weight: bolder;
+            font-family: cursive;
+            background-color: rgb(255, 0, 0);
+            border-radius: 50px;
+        }
+        #playagain:hover{
+            transform: scale(1.2);
+        }
+        #quit
+        {
+            width: 1000px;
+            height: 270px;
+            margin: 30px;
+            font-size: 150px;
+            font-weight: bolder;
+            font-family: cursive;
+            background-color: greenyellow;
+            border-radius: 50px;
+        }
+        #quit:hover{
+            transform: scale(1.2);
+        }
+    </style>
+</head>
+<body>
+    <div id="div1"><button id="playagain">PLAY AGAIN</button></div>
+    <div id="div2"><button id="quit">QUIT</button></div>
+    <script>
+        $(document).ready(function()
+        {
+            $("#playagain").click(function()
+            {
+                $(location).attr('href','level1_html_page.html');
+            });
+        });
+        $(document).ready(function()
+        {
+            $("#quit").click(function()
+            {
+                $(location).attr('href','4pics 1 word game.html');
+            });
+        });
+    </script>
+</body>
+</html>

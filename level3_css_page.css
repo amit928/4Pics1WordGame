@@ -1,0 +1,161 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: rgb(113, 164, 168);
+}
+
+#spantag0
+{
+    
+    background-color: rgb(234, 236, 235); 
+    font-family: monospace;
+    color: orange;  
+    font-size: 50px;
+    font-weight: 900;
+    padding: 5px 5px 5px 600px;
+    text-shadow: 2px 2px black;
+}
+#back_btn
+{
+    position: fixed;
+    left: 20px;
+    width: 130px;
+    height: 60px;
+    top: 3px;
+    font-size: 20px;
+    font-weight: 900;
+    background-color: orange;
+    border: 5px solid black;
+    color: black;
+}
+#back_btn:hover{
+    transform: scale(1.2);
+}
+#hints_btn
+{
+    position: fixed;
+    right: 20px;
+    width: 90px;
+    height: 60px;
+    top: 3px;
+    font-size: 30px;
+    font-weight: 900;
+    background-color: orange;
+    border: 5px solid black;
+    color: white;
+}
+#hints_btn:hover{
+    transform: scale(1.2);
+}
+#divtag1
+{
+    position: fixed;
+    margin: 30px 0 0 200px;
+    display: inline-block;
+    
+}
+
+#divtag2
+{
+    
+    position: relative;
+    top: 350px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: brown;
+    height: 63px;
+}
+
+
+.spantag
+{
+    
+    text-align: center;
+    border: 2px solid white;
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+    background-color: white;
+    color: rgb(6, 6, 75);
+    border-radius: 10px;
+    
+    
+}
+#spantag1
+{
+    
+    position: absolute;
+    margin-left: 535px;
+    height: 60px;
+    width: 60px;
+    
+}
+#spantag1:hover{
+    transform: scale(1.2);
+}
+#spantag2
+{
+    position: absolute;
+    margin-left: 625px;
+    height: 60px;
+    width: 60px;
+}
+#spantag2:hover{
+    transform: scale(1.2);
+}
+#spantag3
+{
+    position: absolute;
+    margin-left: 715px;
+    height: 60px;
+    width: 60px;
+}
+#spantag3:hover{
+    transform: scale(1.2);
+}
+#spantag4
+{
+    position: absolute;
+    margin-left: 805px;
+    height: 60px;
+    width: 60px;
+}
+#spantag4:hover{
+    transform: scale(1.2);
+}
+#warn-msg
+{
+    position: absolute;
+    top: 540px;
+    margin-left: 560px;
+    color: red;
+    font-weight: bolder;
+    font-size: 45px;
+    background: transparent;
+    text-shadow: 2px 2px white;
+}
+#submit_btn
+{
+    position: relative;
+    background: linear-gradient(to right, yellow ,orange);
+    color: white;
+    font-family: fantasy;
+    top: 440px;
+    margin-left: 610px;
+    height: 45px;
+    width: 150px;
+    font-size: 30px;
+    font-weight: bolder;
+    border-radius: 15px;
+    border: transparent;
+    text-shadow: 2px 2px gray;
+}
+#submit_btn:hover{
+    transform: scale(1.2);
+}
+
+
